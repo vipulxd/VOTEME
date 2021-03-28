@@ -1,0 +1,82 @@
+// .loginpage {
+//   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+//     url(./Ideas_voting_1206486505.webp);
+// }
+body {
+  background-color: rgb(41, 37, 37);
+}
+
+.center-heading {
+  font-weight: bolder;
+  font-size: 7vw;
+  margin: 0px;
+  color: rgb(219, 255, 13);
+  font-style: bold;
+  width: 50%;
+  float: left;
+}
+.logout-button {
+  position: absolute;
+  top: 0;
+  right: 2%;
+  height: 2px;
+}
+.right-heading {
+  margin: 25px;
+  position: absolute;
+  color: rgb(65, 230, 161);
+  float: right;
+  width: 30%;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.login-button {
+  position: absolute;
+  margin: 10px;
+  right: 30%;
+  top: 60%;
+}
+
+.first-div {
+  float: left;
+  width: 25%;
+}
+.second-div {
+  float: left;
+  width: 25%;
+}
+.third-div {
+  float: left;
+  width: 25%;
+}
+.side-margin {
+  margin: 40px;
+}
+.div-outer-cad {
+  position: absolute;
+  top: 5%;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.dashb-heading {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin: 2px;
+  color: white;
+}
+
+.MuiAlert-standardError {
+  background-color: rgb(255, 0, 0) !important;
+  padding: 10px !important;
+  margin: 10px !important;
+  color: white !important;
+}
+.alertbox {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  z-index: 1;
+  width: 99%;
+}
