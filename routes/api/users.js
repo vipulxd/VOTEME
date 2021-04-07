@@ -10,7 +10,7 @@ router.put("/like/:username/:cadID", async (req, res) => {
         like => like.user.toString() == req.params.username
       ).length > 0
     ) {
-      return res.status(400).json({msg: "already liked"});
+      return res.status(400).json({msg: "YOU CAN'T VOTE MULTIPLE TIMES"});
     }
     candidate.likes.unshift({user: req.params.username});
     await candidate.save();
