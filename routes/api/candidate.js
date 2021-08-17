@@ -28,5 +28,5 @@ res.json(newCad)
 res.send(500).send('server error')
 }
 })
-
+console.log("Please don't copy  this repo you will be hacked")
 module.exports = router
